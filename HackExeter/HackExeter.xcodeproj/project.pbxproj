@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCAB06461EA25008000E9E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB06451EA25008000E9E6B /* AppDelegate.swift */; };
+		DCAB06481EA25008000E9E6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB06471EA25008000E9E6B /* ViewController.swift */; };
+		DCAB064D1EA25008000E9E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAB064C1EA25008000E9E6B /* Assets.xcassets */; };
+		DCAB06501EA25008000E9E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAB064E1EA25008000E9E6B /* LaunchScreen.storyboard */; };
+		DCAB06641EA259A4000E9E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAB06631EA259A4000E9E6B /* Main.storyboard */; };
+		DCAB066A1EA26F0A000E9E6B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB06691EA26F0A000E9E6B /* User.swift */; };
+		DCAB066C1EA27E92000E9E6B /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB066B1EA27E92000E9E6B /* TimerController.swift */; };
+		DCAB066E1EA2820B000E9E6B /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB066D1EA2820B000E9E6B /* Achievement.swift */; };
+		DCAB06701EA28253000E9E6B /* AchieveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB066F1EA28253000E9E6B /* AchieveController.swift */; };
+		DCAB06721EA28349000E9E6B /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB06711EA28349000E9E6B /* InfoController.swift */; };
+		DCAB06921EA2BABF000E9E6B /* ShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB06911EA2BABF000E9E6B /* ShopController.swift */; };
+		DCAB06941EA2C399000E9E6B /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB06931EA2C399000E9E6B /* Shop.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCAB06421EA25008000E9E6B /* HackExeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackExeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAB06451EA25008000E9E6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCAB06471EA25008000E9E6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCAB064C1EA25008000E9E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCAB064F1EA25008000E9E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCAB06511EA25008000E9E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAB06631EA259A4000E9E6B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		DCAB06691EA26F0A000E9E6B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DCAB066B1EA27E92000E9E6B /* TimerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
+		DCAB066D1EA2820B000E9E6B /* Achievement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		DCAB066F1EA28253000E9E6B /* AchieveController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchieveController.swift; sourceTree = "<group>"; };
+		DCAB06711EA28349000E9E6B /* InfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		DCAB06911EA2BABF000E9E6B /* ShopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopController.swift; sourceTree = "<group>"; };
+		DCAB06931EA2C399000E9E6B /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCAB063F1EA25008000E9E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCAB06391EA25008000E9E6B = {
+			isa = PBXGroup;
+			children = (
+				DCAB06441EA25008000E9E6B /* HackExeter */,
+				DCAB06431EA25008000E9E6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCAB06431EA25008000E9E6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCAB06421EA25008000E9E6B /* HackExeter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCAB06441EA25008000E9E6B /* HackExeter */ = {
+			isa = PBXGroup;
+			children = (
+				DCAB066D1EA2820B000E9E6B /* Achievement.swift */,
+				DCAB06931EA2C399000E9E6B /* Shop.swift */,
+				DCAB066F1EA28253000E9E6B /* AchieveController.swift */,
+				DCAB066B1EA27E92000E9E6B /* TimerController.swift */,
+				DCAB06451EA25008000E9E6B /* AppDelegate.swift */,
+				DCAB06471EA25008000E9E6B /* ViewController.swift */,
+				DCAB06691EA26F0A000E9E6B /* User.swift */,
+				DCAB06711EA28349000E9E6B /* InfoController.swift */,
+				DCAB06911EA2BABF000E9E6B /* ShopController.swift */,
+				DCAB064C1EA25008000E9E6B /* Assets.xcassets */,
+				DCAB06631EA259A4000E9E6B /* Main.storyboard */,
+				DCAB064E1EA25008000E9E6B /* LaunchScreen.storyboard */,
+				DCAB06511EA25008000E9E6B /* Info.plist */,
+			);
+			path = HackExeter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCAB06411EA25008000E9E6B /* HackExeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAB06541EA25008000E9E6B /* Build configuration list for PBXNativeTarget "HackExeter" */;
+			buildPhases = (
+				DCAB063E1EA25008000E9E6B /* Sources */,
+				DCAB063F1EA25008000E9E6B /* Frameworks */,
+				DCAB06401EA25008000E9E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackExeter;
+			productName = HackExeter;
+			productReference = DCAB06421EA25008000E9E6B /* HackExeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCAB063A1EA25008000E9E6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Aalap Patel";
+				TargetAttributes = {
+					DCAB06411EA25008000E9E6B = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = F78KT72UTP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCAB063D1EA25008000E9E6B /* Build configuration list for PBXProject "HackExeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCAB06391EA25008000E9E6B;
+			productRefGroup = DCAB06431EA25008000E9E6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAB06411EA25008000E9E6B /* HackExeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCAB06401EA25008000E9E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAB06501EA25008000E9E6B /* LaunchScreen.storyboard in Resources */,
+				DCAB064D1EA25008000E9E6B /* Assets.xcassets in Resources */,
+				DCAB06641EA259A4000E9E6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCAB063E1EA25008000E9E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAB066A1EA26F0A000E9E6B /* User.swift in Sources */,
+				DCAB066C1EA27E92000E9E6B /* TimerController.swift in Sources */,
+				DCAB06721EA28349000E9E6B /* InfoController.swift in Sources */,
+				DCAB06481EA25008000E9E6B /* ViewController.swift in Sources */,
+				DCAB06461EA25008000E9E6B /* AppDelegate.swift in Sources */,
+				DCAB06921EA2BABF000E9E6B /* ShopController.swift in Sources */,
+				DCAB06941EA2C399000E9E6B /* Shop.swift in Sources */,
+				DCAB066E1EA2820B000E9E6B /* Achievement.swift in Sources */,
+				DCAB06701EA28253000E9E6B /* AchieveController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCAB064E1EA25008000E9E6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAB064F1EA25008000E9E6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCAB06521EA25008000E9E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCAB06531EA25008000E9E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCAB06551EA25008000E9E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F78KT72UTP;
+				INFOPLIST_FILE = HackExeter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Johan-Sajan.HackExeter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DCAB06561EA25008000E9E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F78KT72UTP;
+				INFOPLIST_FILE = HackExeter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Johan-Sajan.HackExeter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCAB063D1EA25008000E9E6B /* Build configuration list for PBXProject "HackExeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAB06521EA25008000E9E6B /* Debug */,
+				DCAB06531EA25008000E9E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAB06541EA25008000E9E6B /* Build configuration list for PBXNativeTarget "HackExeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAB06551EA25008000E9E6B /* Debug */,
+				DCAB06561EA25008000E9E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCAB063A1EA25008000E9E6B /* Project object */;
+}

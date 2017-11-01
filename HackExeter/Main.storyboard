@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xuq-sb-jio">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Lcr-uC-Cm2">
+            <objects>
+                <viewController id="xuq-sb-jio" customClass="ViewController" customModule="HackExeter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cNH-km-udP"/>
+                        <viewControllerLayoutGuide type="bottom" id="88J-hv-U5o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5fC-I8-Wk0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="HfP-QY-xgv" kind="show" identifier="toTimer" id="WZ0-KT-rVm"/>
+                        <segue destination="38M-WP-Irl" kind="show" identifier="toAchieve" id="n5r-AJ-c3j"/>
+                        <segue destination="Fd9-Z4-iJo" kind="show" identifier="toInfo" id="prK-Ms-zrX"/>
+                        <segue destination="Ys4-Lb-65R" kind="show" identifier="toShop" id="6Yt-Yt-7gD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AMz-kr-Fxf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="26" y="-143"/>
+        </scene>
+        <!--Info Controller-->
+        <scene sceneID="XdY-Fr-wMW">
+            <objects>
+                <viewController storyboardIdentifier="Info Controller" title="Info Controller" id="Fd9-Z4-iJo" customClass="InfoController" customModule="HackExeter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vl6-U4-wzV"/>
+                        <viewControllerLayoutGuide type="bottom" id="GZD-pv-pS5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d9x-Et-Fsr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="xuq-sb-jio" kind="show" identifier="infoToMain" id="te5-hn-So2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mbN-PR-8Yy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="498" y="769"/>
+        </scene>
+        <!--Shop Controller-->
+        <scene sceneID="ZIi-j3-xob">
+            <objects>
+                <viewController id="Ys4-Lb-65R" customClass="ShopController" customModule="HackExeter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7ja-QF-Jmj"/>
+                        <viewControllerLayoutGuide type="bottom" id="bqz-dj-jmb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OeT-8x-yDI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="xuq-sb-jio" kind="show" identifier="shopToMain" id="EcQ-0b-gOK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y6e-HN-0RG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1563" y="702"/>
+        </scene>
+        <!--Timer Controller-->
+        <scene sceneID="gJd-Tx-yGg">
+            <objects>
+                <viewController storyboardIdentifier="Timer Controller" id="HfP-QY-xgv" customClass="TimerController" customModule="HackExeter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RRN-zI-yMD"/>
+                        <viewControllerLayoutGuide type="bottom" id="vER-tg-fyU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lzI-3g-XcY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="xuq-sb-jio" kind="show" identifier="toMain" id="sw8-gb-mRR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kb5-Bi-Zad" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="954" y="-124"/>
+        </scene>
+        <!--Achieve Controller-->
+        <scene sceneID="1e1-85-9JE">
+            <objects>
+                <viewController storyboardIdentifier="Achieve Controller" id="38M-WP-Irl" customClass="AchieveController" customModule="HackExeter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xqh-C4-CgS"/>
+                        <viewControllerLayoutGuide type="bottom" id="qTi-yg-yfh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GKa-gI-Rve">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="xuq-sb-jio" kind="show" identifier="achieveToMain" id="lb4-Cf-dWO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hM0-ay-pJe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1675" y="-118"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="EcQ-0b-gOK"/>
+    </inferredMetricsTieBreakers>
+</document>
